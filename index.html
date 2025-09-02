@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trendy Threads | Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?fashion,clothing') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+    }
+
+    .products {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .product {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .product h3 {
+      margin: 0.5rem 0;
+    }
+
+    .product p {
+      color: #444;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Trendy Threads</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Discover Your Style</h2>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://source.unsplash.com/400x400/?fashion,dress" alt="Product 1" />
+      <h3>Elegant Dress</h3>
+      <p>$59.99</p>
+    </div>
+    <div class="product">
+      <img src="https://source.unsplash.com/400x400/?fashion,jacket" alt="Product 2" />
+      <h3>Stylish Jacket</h3>
+      <p>$89.99</p>
+    </div>
+    <div class="product">
+      <img src="https://source.unsplash.com/400x400/?fashion,shoes" alt="Product 3" />
+      <h3>Trendy Shoes</h3>
+      <p>$74.99</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Trendy Threads. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
